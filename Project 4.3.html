@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let array = ["Rock","Paper","Scissor"];
+    let randomNumber = Math.floor(Math.random()*3);
+    let userInput = prompt("Rock, Paper, Scissor");
+    let a = array[randomNumber];
+    let output;
+    if (userInput>a){
+        if (userInput=array[2] && a == array[0]){
+           output= "Computer Win";
+        }else{
+        output =console.log("You win!!");}}
+        else if (a> userInput){
+        if (userInput=array[0] && a == array[2]){
+            output ="Computer Win";}
+            else{
+        output= "You  Win!!";}
+    }else if (a == userInput){
+      output=  "Tie";}
+        console.log(userInput + "  V.S  " +  a   );
+        console.log(output);
+</script>
